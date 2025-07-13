@@ -16,8 +16,8 @@ Version: 1.0.10
 10. GUI画面半透明，视觉效果更柔美等；
 11. 支持Windows/Linux系统。
 
-## 生成可执行文件方式
-pyisntaller --onefile PC_Info_v1.7.0.py
+## 生成可执行文件
+pyisntaller --onedir --windowed --icon=.\resource\icon\yibo-4.ico yi_player_v1.0.10.py
 
 ## 文件结构
 ```
