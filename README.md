@@ -1,7 +1,10 @@
 ## 宜播放器
 使用Python + PySide6 实现具有现代桌面GUI风格、跨平台、多功能的播放器.
 Author: Gavin.Xie
-Version: 1.0.10
+Version: 1.1.1
+
+![alt text](yibo_player_v1.1.1_Chinese.PNG)
+![alt text](yibo_player_v1.1.1_English.PNG)
 
 ## ‘宜播放器’功能
 1. 支持播放.mp3/flac/wave格式的音乐文件，解析.lrc文件，根据时间戳实时滚动显示歌词，支持多行高亮和平滑滚动效果；
@@ -14,9 +17,11 @@ Version: 1.0.10
 8. 齐全的播放功能（暂停、播放、上/下一曲、播放模式、静音、音量、进度条、跳转到任意时刻）；
 9. 基于smtplib和QThread实现异步邮件发送反馈意见，通过Email_config.json配置 SMTP 服务器（QQ/163 等）；
 10. GUI画面半透明，视觉效果更柔美等；
-11. 支持Windows/Linux系统。
+11. 支持Windows/Linux系统；
+12. 支持中文/英文切换；
+13. 显示当前播放音乐的专辑封面。
 
-## 生成可执行文件
+## 生成可执行文件方式
 pyisntaller --onedir --windowed --icon=.\resource\icon\yibo-4.ico yi_player_v1.0.10.py
 
 ## 文件结构
@@ -24,13 +29,20 @@ pyisntaller --onedir --windowed --icon=.\resource\icon\yibo-4.ico yi_player_v1.0
 ├──_config_              # E-mail配置文件，歌曲收藏文件保存
 ├──docs                  # 软件使用方式及演示用例
 ├──resource              # 软件icon与图片文件
+├──translations          # 存放翻译文件
 ├──music                 # 软件自动加载该文件夹下的音乐文件
-├──yi_player_v1.0.10.py  # 代码脚本
+├──yi_player_v1.1.1.py  # 代码脚本
 ```
 ## 如有问题，请联系
 x3012378557@outlook.com
 
 ## Version
+7/20 v1.1.1
+加入专辑图片显示
+
+7/19 v1.1.0
+加入中文、英文语言切换
+
 7/13 v1.0.10
 1. 修复在Linux系统中运行的问题
 2. 调整一些代码
