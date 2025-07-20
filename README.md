@@ -4,7 +4,6 @@ Author: Gavin.Xie
 Version: 1.1.1
 
 ![alt text](yibo_player_v1.1.1_Chinese.PNG)
-![alt text](yibo_player_v1.1.1_English.PNG)
 
 ## ‘宜播放器’功能
 1. 支持播放.mp3/flac/wave格式的音乐文件，解析.lrc文件，根据时间戳实时滚动显示歌词，支持多行高亮和平滑滚动效果；
