@@ -1,0 +1,8 @@
+{
+    "server": "smtp.qq.com",
+    "port": 465,
+    "username": "xx@qq.com",
+    "password": "yyyyyyyy",
+    "sender": "xx@qq.com",
+    "recipient": "x3012378557@outlook.com"
+}
